@@ -16,6 +16,10 @@ for(item of buttons){
             screenValue = "";
             screen.value = screenValue;
         }
+        else if (buttonText == 'DEL'){
+            screen.value = screen.value.slice(0,-1);
+            screenValue = screen.value;
+        }
         
         else if(buttonText == '='){
             screen.value = eval(screenValue);
