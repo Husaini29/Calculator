@@ -15,12 +15,14 @@ table{
 button{
     font-size: 40px;
     background-color: #fde380;
-    height: 75px;
-    width: 102px;
+    height: 65px;
+    width: 100px;
     margin: 4%;
     border-radius: 20px;
 }
-
+.delete{
+    width: 200%;
+}
 .calculator {
     display: inline-block;
     background: #eeb4b4;
